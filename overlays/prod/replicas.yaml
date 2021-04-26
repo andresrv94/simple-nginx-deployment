@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-nginx-dep
 spec:
-  replicas: 5
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 1
